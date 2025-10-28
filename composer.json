@@ -1,0 +1,15 @@
+{
+    "name": "diegoqb98/php-oauth-authentication",
+    "description": "Aplicación web con PHP vanilla - Autenticación con Google y GitHub",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "google/apiclient": "^2.15",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
